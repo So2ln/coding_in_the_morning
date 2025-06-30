@@ -13,7 +13,8 @@ void main() {
 
   print('\nsquare\n');
 
-  for (var i = 0; i < 5; i++) {
-    print('*' * 5);
+  var side = 5;
+  for (var i = 0; i < side; i++) {
+    print('*' * side);
   }
 }

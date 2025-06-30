@@ -1,5 +1,19 @@
-import 'package:coding_in_the_morning/coding_in_the_morning.dart' as coding_in_the_morning;
+void main() {
+  print('right triangle\n');
 
-void main(List<String> arguments) {
-  print('Hello world: ${coding_in_the_morning.calculate()}!');
+  for (var i = 1; i <= 5; i++) {
+    print('*' * i);
+  }
+
+  print('\nright reverse triangle\n');
+
+  for (var i = 5; i >= 1; i--) {
+    print('*' * i);
+  }
+
+  print('\nsquare\n');
+
+  for (var i = 0; i < 5; i++) {
+    print('*' * 5);
+  }
 }

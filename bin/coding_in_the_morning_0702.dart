@@ -9,7 +9,7 @@ void main() {
   List<String> words = [];
   if (sentence != null && sentence.isNotEmpty) {
     // print(sentence.runtimeType);
-    words = sentence.split(' ');
+    words = sentence.trim().split(' ');
   }
 
   String lastword = words.last;

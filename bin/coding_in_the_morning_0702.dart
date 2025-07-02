@@ -21,7 +21,7 @@ void main() {
 class Solution {
   int lengthOfLastWord(String s) {
     List<String> words = [];
-    words = s.split(' ');
+    words = s.trim().split(' ');
     String lastword = words.last;
     return lastword.length;
   }

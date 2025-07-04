@@ -6,6 +6,7 @@
 /// /// 출력: [1, 3, 12, 0, 0]
 
 /// * 소린 첫 시도 (--> 성공)
+/// 원래 removeWhere() 함수를 썼는데, idx를 구할때 오류가 생겨서 그냥 for문을 사용함
 class Solution1 {
   void moveZeroes(List<int> nums) {
     int idx = 0;

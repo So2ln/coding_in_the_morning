@@ -24,7 +24,7 @@ class Solution1 {
       t2 = tn;
     }
     print(tribonacci);
-    print(tn);
+    return tn;
   }
 }
 

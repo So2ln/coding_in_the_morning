@@ -28,7 +28,7 @@ class Solution1 {
   }
 }
 
-// * 소린 두번째 시도
+// * 소린 두번째 시도 (--> 성공; putIfAbsent를 사용하여 코드 간결화)
 class Solution2 {
   int majorityElement(List<int> nums) {
     Map<int, List<int>> idxMap = {};

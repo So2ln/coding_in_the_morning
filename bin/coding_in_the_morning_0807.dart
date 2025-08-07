@@ -12,12 +12,33 @@ import 'dart:math';
 void main() {
   List<int> height = [1, 8, 6, 2, 5, 4, 8, 3, 7];
 
+  // while문 써서
   int maxArea(List<int> height) {
     int ind1 = 0;
     int ind2 = height.length - 1;
     int maxArea = 0;
 
     while (ind1 < ind2) {
+      int width = ind2 - ind1;
+      int containerHeight = min(height[ind1], height[ind2]);
+      if (maxArea < width * containerHeight) {
+        maxArea = width * containerHeight;
+      }
+
+      if (height[ind1] < height[ind2]) {
+        ind1++;
+      } else {
+        ind2--;
+      }
+    }
+    return maxArea;
+  }
+
+  // for문 써서
+  int maxArea2(List<int> height) {
+    int maxArea = 0;
+
+    for (int ind1 = 0, ind2 = height.length - 1; ind1 < ind2;) {
       int width = ind2 - ind1;
       int containerHeight = min(height[ind1], height[ind2]);
       if (maxArea < width * containerHeight) {

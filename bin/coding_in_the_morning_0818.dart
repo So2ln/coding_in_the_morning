@@ -108,11 +108,13 @@ class Solution2 {
 }
 
 // 7ms
+// 두 문자열을 '문자가 처음 나타난 위치'라는 숫자 패턴으로 변환하여, 그 숫자 패턴이 완전히 일치하는지 비교
 class Solution3 {
   bool isIsomorphic(String s, String t) {
+    // s에서 현재 문자가 처음 등장한 인덱스와
+    // t에서 현재 문자가 처음 등장한 인덱스가 다르면 패턴이 깨진 것
+
     for (int i = 0; i < s.length; i++) {
-      // s에서 현재 문자가 처음 등장한 인덱스와
-      // t에서 현재 문자가 처음 등장한 인덱스가 다르면 패턴이 깨진 것
       if (s.indexOf(s[i]) != t.indexOf(t[i])) {
         return false;
       }

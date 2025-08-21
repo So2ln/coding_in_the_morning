@@ -1,0 +1,155 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "기생충",
+            "originalTitle": "Parasite",
+            "director": "봉준호",
+            "genre": [
+                "드라마",
+                "스릴러",
+                "코미디"
+            ],
+            "releaseYear": 2019,
+            "rating": 8.6,
+            "duration": 132,
+            "country": "한국",
+            "cast": [
+                {
+                    "name": "송강호",
+                    "role": "기택"
+                },
+                {
+                    "name": "이선균",
+                    "role": "동익"
+                },
+                {
+                    "name": "조여정",
+                    "role": "연교"
+                }
+            ],
+            "awards": [
+                "아카데미 작품상",
+                "아카데미 감독상",
+                "칸 영화제 황금종려상"
+            ],
+            "boxOffice": {
+                "budget": 11400000,
+                "worldwide": 263540000
+            }
+        },
+        {
+            "id": 2,
+            "title": "아바타",
+            "originalTitle": "Avatar",
+            "director": "제임스 카메론",
+            "genre": [
+                "SF",
+                "액션",
+                "어드벤처"
+            ],
+            "releaseYear": 2009,
+            "rating": 7.9,
+            "duration": 162,
+            "country": "미국",
+            "cast": [
+                {
+                    "name": "샘 워딩턴",
+                    "role": "제이크 설리"
+                },
+                {
+                    "name": "조 샐다나",
+                    "role": "네이티리"
+                },
+                {
+                    "name": "시고니 위버",
+                    "role": "그레이스 박사"
+                }
+            ],
+            "awards": [
+                "아카데미 촬영상",
+                "아카데미 미술상",
+                "아카데미 시각효과상"
+            ],
+            "boxOffice": {
+                "budget": 237000000,
+                "worldwide": 2923706026
+            }
+        },
+        {
+            "id": 3,
+            "title": "인터스텔라",
+            "originalTitle": "Interstellar",
+            "director": "크리스토퍼 놀란",
+            "genre": [
+                "SF",
+                "드라마",
+                "어드벤처"
+            ],
+            "releaseYear": 2014,
+            "rating": 8.7,
+            "duration": 169,
+            "country": "미국",
+            "cast": [
+                {
+                    "name": "매튜 맥커너히",
+                    "role": "쿠퍼"
+                },
+                {
+                    "name": "앤 해서웨이",
+                    "role": "아멜리아 브랜드"
+                },
+                {
+                    "name": "제시카 차스테인",
+                    "role": "머피"
+                }
+            ],
+            "awards": [
+                "아카데미 시각효과상",
+                "BAFTA 특수시각효과상"
+            ],
+            "boxOffice": {
+                "budget": 165000000,
+                "worldwide": 701729206
+            }
+        },
+        {
+            "id": 4,
+            "title": "센과 치히로의 행방불명",
+            "originalTitle": "千と千尋の神隠し",
+            "director": "미야자키 하야오",
+            "genre": [
+                "애니메이션",
+                "가족",
+                "판타지"
+            ],
+            "releaseYear": 2001,
+            "rating": 9.3,
+            "duration": 125,
+            "country": "일본",
+            "cast": [
+                {
+                    "name": "루미 히라기",
+                    "role": "치히로 (목소리)"
+                },
+                {
+                    "name": "미유 이리노",
+                    "role": "하쿠 (목소리)"
+                }
+            ],
+            "awards": [
+                "아카데미 장편애니메이션상",
+                "베를린국제영화제 황금곰상"
+            ],
+            "boxOffice": {
+                "budget": 19000000,
+                "worldwide": 395802070
+            }
+        }
+    ],
+    "metadata": {
+        "totalMovies": 4,
+        "lastUpdated": "2024-01-20",
+        "version": "1.0"
+    }
+}
